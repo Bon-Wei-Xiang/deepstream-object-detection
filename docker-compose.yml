@@ -1,0 +1,10 @@
+services:
+  accident-detection:
+    image: deepstream/object-detection
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

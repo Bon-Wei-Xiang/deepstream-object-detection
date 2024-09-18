@@ -1,0 +1,2 @@
+cuda_python==12.5.0
+pip==24.2

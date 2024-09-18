@@ -1,0 +1,3 @@
+file:///home/user/videos/sample.mp4
+rtsp://user:pass@192.168.1.10:554/stream2	# system support multistream
+...
